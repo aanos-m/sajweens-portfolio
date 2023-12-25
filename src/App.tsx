@@ -1,13 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
 
 function App() {
   return (
-    <div className="App">
-    <h1 className="text-3xl font-bold underline text-red-600">
-      Tailwind test
-    </h1>
+    <div className="App bg-black">
+      <Home/>
     </div>
   );
 }
