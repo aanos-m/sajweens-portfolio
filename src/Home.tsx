@@ -4,6 +4,7 @@ import StarQuestCover from './assets/Star Quest Cover.png'
 import IlluminateCover from './assets/Illuminate Cover.png'
 import CometKnightCover from './assets/Comet Knight Cover.png'
 import AimbridgeCover from './assets/Aimbridge Cover.png'
+import NavBar from './NavBar'
 
 const imgStyles = {
     width: '100%',
@@ -14,7 +15,8 @@ const imgStyles = {
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center justify-center'>
+    <div className='flex flex-col items-center justify-center bg-black'>
+        <NavBar/>
         <div className='pt-16 pb-4'>
             <div className='flex flex-row justify-end'>
                 <img src={sparkles} alt='sparkles.img' style={{
@@ -36,11 +38,11 @@ const Home = () => {
             </div>
         </div>
         <div className='pb-16'>
-            <p className='text-baby-blue text-3xl font-bold text-wrap pb-4 items-center justify-center'>
+            <p className='text-baby-blue text-3xl font-bold text-wrap text-center pb-4 items-center justify-center'>
                 I’m a UX Designer/UX <br/> Researcher with a 
                 background <br/> in Information Technology <br/> and Systems.
             </p>
-            <p className='text-white font-bold text-xl pb-16 pt-4'>
+            <p className='text-white font-bold text-xl pb-16 pt-4 text-center'>
                 Take a look at my projects below
             </p>
         </div>
