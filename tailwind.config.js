@@ -10,7 +10,8 @@ module.exports = {
       current: 'currentColor',
       'baby-blue': '#7AA3E3',
       'white':'#ffffff',
-      'black': '#000000'
+      'black': '#000000',
+      'mustard-yellow': '#CFA831',
     },
   },
   plugins: [],

@@ -1,15 +1,15 @@
 import React from 'react'
-import sparkles from './assets/sparkles.png'
-import AboutMe1 from './assets/About Me 1.png'
-import AboutMe2 from './assets/About Me 2.png'
-import AboutMe3 from './assets/About Me 3.png'
+import sparkles from './assets/general/sparkles.png'
+import AboutMe1 from './assets/general/About Me 1.png'
+import AboutMe2 from './assets/general/About Me 2.png'
+import AboutMe3 from './assets/general/About Me 3.png'
+import AboutMe4 from './assets/general/Bullet Journal.png'
 import NavBar from './NavBar'
 
 const imgStyles = {
     width: 'auto',
     height: '30vh',
     padding: 4,
-    borderRadius: 16,
     margin: 4
 }
 
@@ -26,7 +26,7 @@ const About = () => {
                     top: -15
                 }}/>
                 <h1 className='text-white text-4xl font-bold'>
-                    My Projects
+                    About Me
                 </h1>
             </div>
             <div className='flex flex-row justify-end'>
@@ -103,9 +103,9 @@ const About = () => {
                 </p>
             </section>
 
-            <img src={AboutMe1} style={imgStyles} alt='img'/>
+            <img src={AboutMe4} style={imgStyles} alt='img'/>
         </div>
-        <button className='text-white p-4 font-bold'>Connect with me on LinkedIn</button>
+
     </div>
   )
 }
