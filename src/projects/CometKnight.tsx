@@ -1,75 +1,84 @@
 import React from 'react'
-import NavBar from './NavBar'
-import cometKnight from './assets/cometKnight/Comet Knight.png'
+import NavBar from '../NavBar'
+import cometKnight from '../assets/cometKnight/Comet Knight.png'
 import { useNavigate } from 'react-router-dom'
-import useCaseDiagram from './assets/cometKnight/Use Case.png'
-import classDiagram from './assets/cometKnight/Class Diagram.png'
-import contextDiagram from './assets/cometKnight/Context.png'
-import ck8 from './assets/cometKnight/CK 8.png'
-import ck2 from './assets/cometKnight/CK 2.png'
-import ck5 from './assets/cometKnight/CK 5.png'
-import ck9 from './assets/cometKnight/CK 9.png'
-import ck3 from './assets/cometKnight/CK 3.png'
-import ck6 from './assets/cometKnight/CK 6.png'
-import ck7 from './assets/cometKnight/CK 7.png'
-import ck4 from './assets/cometKnight/CK 4.png'
-import m1 from './assets/cometKnight/Mechanic 1.png'
-import m2 from './assets/cometKnight/Mechanic 2.png'
-import m3 from './assets/cometKnight/Mechanic 3.png'
-import m4 from './assets/cometKnight/Mechanic 4.png'
-import m5 from './assets/cometKnight/Mechanic 5.png'
-import m6 from './assets/cometKnight/Mechanic 6.png'
-import m7 from './assets/cometKnight/Mechanic 7.png'
+import useCaseDiagram from '../assets/cometKnight/Use Case.png'
+import classDiagram from '../assets/cometKnight/Class Diagram.png'
+import contextDiagram from '../assets/cometKnight/Context.png'
+import ck8 from '../assets/cometKnight/CK 8.png'
+import ck2 from '../assets/cometKnight/CK 2.png'
+import ck5 from '../assets/cometKnight/CK 5.png'
+import ck9 from '../assets/cometKnight/CK 9.png'
+import ck3 from '../assets/cometKnight/CK 3.png'
+import ck6 from '../assets/cometKnight/CK 6.png'
+import ck7 from '../assets/cometKnight/CK 7.png'
+import ck4 from '../assets/cometKnight/CK 4.png'
+import m1 from '../assets/cometKnight/Mechanic 1.png'
+import m2 from '../assets/cometKnight/Mechanic 2.png'
+import m3 from '../assets/cometKnight/Mechanic 3.png'
+import m4 from '../assets/cometKnight/Mechanic 4.png'
+import m5 from '../assets/cometKnight/Mechanic 5.png'
+import m6 from '../assets/cometKnight/Mechanic 6.png'
+import m7 from '../assets/cometKnight/Mechanic 7.png'
 
-import sparkles from './assets/general/sparkles.png'
+import sparkles from '../assets/general/sparkles.png'
 
 
 const CometKnight = () => {
     const navigate = useNavigate();
   return (
-    <div className='flex flex-col items-center justify-center bg-black'>
+    <div className='flex flex-col items-center justify-center bg-black font-openSans'>
         <NavBar/>
         <div className='flex flex-col text-white items-center text-center'>
             <h1 className='font-bold text-5xl pb-4'>
                 Comet Knight
             </h1>
-            <span className='pb-4 text-baby-blue font-medium'>
+            <span className='pb-4 text-baby-blue font-medium font-bitter'>
             Systems, Analysis, and Design <br/>
             Class Project
             </span>
             <img alt='star quest cover' src={cometKnight} 
                 style={{ width: '100%',
-                        height: '40vh',
+                        height: '50vh',
                         padding: 8,}}
             />
-            <span className='pt-4'>Check out the Figma File!</span>
-            <span className='pb-4'>Check out the System Proposal Here!</span>
+            <a className='p-4 text-lg underline font-bold'
+                href='https://www.figma.com/file/mp6iZ3jRj88BYmg054DT4D/Comet-Knight?type=design&node-id=0%3A1&mode=design&t=Y5T2NXIQKdDduaHM-1'
+                target='_blank' rel='noopener noreferrer'>
+                Check out the Figma File!
+            </a>
+            {/* <span className='pb-4 text-lg underline font-bold'>Check out the System Proposal Here!</span> */}
+            <a className='pb-4 text-lg underline font-bold'
+                href='https://docs.google.com/document/d/1z8QV-BsTkqKDhZ8BkX673ELz5Cn6wto9NV4MXj-MTYE/edit?usp=sharing'
+                target='_blank' rel='noopener noreferrer'>
+                Check out the System Proposal Here!
+            </a>
         </div>
 
-        <div className='pt-8 flex flex-col text-white items-center ' style={{width: '20vw'}}> 
-            <p>
-                <span className='font-bold'>Role:</span> UX Designer + UX Researcher<br/><br/>
-                <span className='font-bold'>Duration:</span> September 2023 - November 2023<br/><br/>
-                <span className='font-bold'>Team:</span> Sankia Kulkarni, Shapnum Sahibzadah, Sajween Khan, Avery Chen, Miguel Rodriguez
+        <div className='pt-8 flex flex-col text-white items-center text' style={{width: '20vw'}}> 
+            <p className='font-medium font-bitter'>
+                <span className='font-extrabold'>Role:</span> UX Designer + UX Researcher<br/><br/>
+                <span className='font-extrabold'>Duration:</span> September 2023 - November 2023<br/><br/>
+                <span className='font-extrabold'>Team:</span> Sankia Kulkarni, Shapnum Sahibzadah, Sajween Khan, Avery Chen, Miguel Rodriguez
             </p>
         </div>
         
         <div className='flex flex-col text-white items-center text-center'>
             <h2 className='font-bold text-3xl pt-8 pb-8'>Overview</h2>
-            <p className='text-baby-blue pb-4 text-xl' style={{width: '25vw'}} >
-            For my Systems, Analysis, and Design class, we were tasked to create a new system. 
-            Our group decided to focus on creating a platform to help the UTD community with on-campus 
-            automotive services. 
+            <p className='text-baby-blue pb-4 text-xl font-bitter' style={{width: '25vw'}} >
+                For my Systems, Analysis, and Design class, we were tasked to create a new system. 
+                Our group decided to focus on creating a platform to help the UTD community with on-campus 
+                automotive services. 
             </p>
         </div>
 
         <div className='flex flex-col text-white items-center text-center justify-center'>
-            <h2 className='font-bold text-baby-blue text-3xl pt-8 pb-4'>Part 1: Define </h2>
+            <h2 className='font-bold text-baby-blue text-3xl pt-8 pb-4 font-bitter'>Part 1: Define </h2>
             <h3 className='font-bold text-2xl pb-8'>Problem Statement</h3>
             <span className='pb-4 text-xl text-left' style={{width: '30vw'}} >
                 Our Comet Knight application will aim to mitigate the inconveniences 
                 that hinder the functionality of vehicles:  
-                <ul className="list-disc p-6">
+                <ul className="list-disc pt-6 pb-6 pr-6 pl-8">
                     <li>
                         Icy weather conditions tend to freeze vehicles windshields, 
                         which impacts visibility and mobility   
@@ -100,8 +109,8 @@ const CometKnight = () => {
             </p>
         </div>
         <div className='flex flex-col text-white items-center text-center justify-center'>
-            <h2 className='font-bold text-baby-blue text-3xl pt-16 pb-8'>Part 2: Models</h2>
-            <p className='text-left pl-8 pr-8 pb-16 ' style={{width: '30vw'}}>
+            <h2 className='font-bold text-baby-blue text-3xl pt-8 pb-8 font-bitter'>Part 2: Models</h2>
+            <p className='text-left pb-12 ' style={{width: '30vw'}}>
                 After brainstorming the main functionalities of our system, we then mapped 
                 out different user interactions/features via a context, use case, and class diagrams.
                 We looked at what would be required from a UTD user, mechanic, and system administrator. 
@@ -116,7 +125,7 @@ const CometKnight = () => {
             <img alt='class diagram' src={classDiagram} style={{width: '100%', height: '60vh'}}/>
         </div>
         <div className='flex flex-col text-white items-center text-center justify-center'>
-            <h2 className='font-bold text-baby-blue text-3xl pt-16 pb-8'>Part 3: Design</h2>
+            <h2 className='font-bold text-baby-blue text-3xl pt-12 pb-8 font-bitter'>Part 3: Design</h2>
             <h3 className='font-bold text-2xl pb-8'>Regular UTD User's UI</h3>
             <div className="flex flex-row justify-between">
                 <div className='flex flex-col p-4'> 
@@ -216,7 +225,7 @@ const CometKnight = () => {
                             width: 25,
                             height: 25,
                             position: 'relative',
-                            top: -150
+                            top: -180
                         }}/>
                         <p>
                             Overall, I believe that all the use-cases/features we 

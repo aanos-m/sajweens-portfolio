@@ -13,6 +13,10 @@ module.exports = {
       'black': '#000000',
       'mustard-yellow': '#CFA831',
     },
+    fontFamily: {
+      bitter: ["Bitter", "serif"],
+      openSans: ["Open Sans", "sans-serif"]
+    },
   },
   plugins: [],
 }

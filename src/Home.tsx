@@ -16,12 +16,11 @@ const imgStyles = {
 }
 
 const Home = () => {
-
     const navigate = useNavigate();
   return (
-    <div className='flex flex-col items-center justify-center bg-black'>
+    <div className='flex flex-col items-center justify-center bg-black font-openSans'>
         <NavBar/>
-        <div className='pt-16 pb-4'>
+        <div className=' pb-4'>
             <div className='flex flex-row justify-end'>
                 <img src={sparkles} alt='sparkles.img' style={{
                     width: 25,
@@ -42,7 +41,7 @@ const Home = () => {
             </div>
         </div>
         <div className='pb-16'>
-            <p className='text-baby-blue text-3xl font-bold text-wrap text-center pb-4 items-center justify-center'>
+            <p className='font-bitter text-baby-blue text-3xl font-bold text-wrap text-center pb-4 items-center justify-center'>
                 I’m a UX Designer/UX <br/> Researcher with a 
                 background <br/> in Information Technology <br/> and Systems.
             </p>
@@ -78,7 +77,7 @@ const Home = () => {
                     <img role='button' alt='star quest cover' src={StarQuestCover} style={imgStyles}
                         onClick={() => navigate('/projects/StarQuest')}/>
                     <h3 className='text-white font-bold text-2xl'>Star Quest App</h3>
-                    <span className='text-baby-blue'>
+                    <span className='text-baby-blue font-bitter'>
                         UX Research + UX Design<br/>
                         AIGA CreateUTD Winner
                     </span>
@@ -87,7 +86,7 @@ const Home = () => {
                     <img role='button' alt='star quest cover' src={IlluminateCover} style={imgStyles}
                         onClick={() => navigate('/projects/Illuminate')}/>
                     <h3 className='text-white font-bold text-2xl'>illuminate App</h3>
-                    <span className='text-baby-blue'>
+                    <span className='text-baby-blue font-bitter'>
                         UX Research + UX Design<br/>
                         UX Design Challenge Submission
                     </span>
@@ -98,7 +97,7 @@ const Home = () => {
                     <img role='button' alt='star quest cover' src={CometKnightCover} style={imgStyles} 
                         onClick={() => navigate('/projects/CometKnight')}/>
                     <h3 className='text-white font-bold text-2xl'>Comet Knight App</h3>
-                    <span className='text-baby-blue'>
+                    <span className='text-baby-blue font-bitter'>
                     UX Design + UML Diagramming<br/>
                     Systems Class Project
                     </span>
@@ -107,7 +106,7 @@ const Home = () => {
                     <img role='button' alt='star quest cover' src={AimbridgeCover} style={imgStyles}
                         onClick={() => navigate('/projects/Aimbridge')}/>
                     <h3 className='text-white font-bold text-2xl'>IT Portfolio Dashboard</h3>
-                    <span className='text-baby-blue'>
+                    <span className='text-baby-blue font-bitter'>
                         UX Research + UX Design<br/>
                         Aimbridge Hospitality Internship
                     </span>
@@ -115,9 +114,11 @@ const Home = () => {
             </section>
         </div>
         <Contact/>
-        <button className='text-white items-center justify-center p-4 text-lg font-bold'>
-           <LinkedInIcon sx={{width: 25, height: 25}}/> LinkedIn 
-        </button>
+        <a className='flex text-white items-center justify-center p-4 text-lg font-bold gap-1 
+            hover:bg-baby-blue rounded-2xl' 
+            href='https://www.linkedin.com/in/sajween/' target='_blank' rel='noopener noreferrer'>
+            <LinkedInIcon sx={{width: 25, height: 25}}/> LinkedIn 
+        </a>
     </div>
   )
 }

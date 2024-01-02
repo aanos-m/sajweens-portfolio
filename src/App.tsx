@@ -2,10 +2,10 @@ import About from './About';
 import './App.css';
 import Home from './Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import StarQuest from './StarQuest';
-import CometKnight from './CometKnight';
-import Illuminate from './Illuminate';
-import Aimbridge from './Aimbridge';
+import StarQuest from './projects/StarQuest';
+import CometKnight from './projects/CometKnight';
+import Illuminate from './projects/Illuminate';
+import Aimbridge from './projects/Aimbridge';
 
 function App() {
   return (
