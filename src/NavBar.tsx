@@ -1,8 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router'
 import signature from './assets/general/signature.jpeg'
-import CircleOutlinedIcon from '@mui/icons-material/CircleOutlined';
-import { Typography } from '@mui/material';
 
 const NavBar = () => {
     const navigate = useNavigate();
