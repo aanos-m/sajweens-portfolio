@@ -29,7 +29,7 @@ const imgStyles = {
     width: '100%',
     height: '50vh',
     padding: 8,
-    borderRadius: 16
+
 }
 
 const StarQuest = () => {

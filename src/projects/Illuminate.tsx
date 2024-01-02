@@ -10,7 +10,7 @@ import painPoints2 from '../assets/illuminate/Pain Points.png'
 import techPlatforms from '../assets/illuminate/Technology Platforms.png'
 import litReview from '../assets/illuminate/Lit Review.png'
 import q5 from '../assets/illuminate/q5.png'
-import q10 from '../assets/illuminate/Q10.png'
+import q10 from '../assets/illuminate/q10.png'
 import survery from '../assets/illuminate/Survey.png'
 import affinityMap from '../assets/illuminate/Affinity Map.png'
 import competitor from '../assets/illuminate/Competitor.png'
@@ -33,7 +33,7 @@ const imgStyles = {
   width: '100%',
   height: '50vh',
   padding: 8,
-  borderRadius: 16
+
 }
 
 const Illuminate = () => {
