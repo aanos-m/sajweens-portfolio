@@ -25,7 +25,7 @@ const About = () => {
                     position: 'relative',
                     top: -15
                 }}/>
-                <h1 className='text-white text-5xl font-bold'>
+                <h1 className='text-white xs:text-2xl sm:text-3xl md:text-4xl text-5xl   font-bold'>
                     About Me
                 </h1>
             </div>
@@ -40,9 +40,14 @@ const About = () => {
             </div>
         </div>
 
-        <div className='flex flex-row items-center justify-center pb-4' style={{width: '100vh', height: 'auto'}}>
+        <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center pb-4' 
+            style={{height: 'auto'}}>
             <img src={AboutMe1} style={imgStyles} alt='img'/>
-            <p className='text-baby-blue text-left text-wrap text-xl p-4 font-bitter'>
+            <p className='text-baby-blue text-left 
+            w-full
+            text-wrap  
+            xs:text-sm sm:text-base md:text-lg text-xl 
+            p-4 font-bitter'>
                 I’m an undergraduate at the University of Texas at Dallas 
                 studying Information Technology and Systems and graduating 
                 in May 2024. Coming from a more technical background, I use my
@@ -54,12 +59,16 @@ const About = () => {
 
         <h4 className='text-white font-bold text-xl text-center p-4 '>You can also find me...</h4>
 
-        <div className='flex flex-row items-center justify-center pb-4' style={{width: '100vh', height: 'auto'}}> 
+        <div className='flex flex-row xs:flex-col-reverse sm:flex-col-reverse items-center justify-center pb-4' style={{height: 'auto'}}> 
             <section style={{height: '100%'}}>
                 <h4 className='text-white text-wrap text-lg font-bold p-4'>
                     Empowering Women in Tech
                 </h4>
-                <p className='text-baby-blue text-left text-wrap text-xl p-4 font-bitter'>
+                <p className='text-baby-blue text-left 
+                w-full
+                text-wrap  
+                xs:text-sm sm:text-base md:text-lg text-xl 
+                p-4 font-bitter'>
                     As the Logistics Director of WEHack, the largest hackathon 
                     geared toward women and non-binary people in DFW, I am in 
                     charge of budgeting sponsorship money and leading a team of 4 
@@ -71,13 +80,15 @@ const About = () => {
             <img src={AboutMe2} style={imgStyles} alt='img'/>
         </div>
 
-        <div className='flex flex-row items-center justify-center pb-4' style={{width: '100vh', height: 'auto'}}>
+        <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center pb-4' style={{ height: 'auto'}}>
             <img src={AboutMe3} style={imgStyles} alt='img'/>
             <section>
                 <h4 className='text-white text-wrap text-lg font-bold p-4'>
                     Being Involved On-Campus
                 </h4>
-                <p className='text-baby-blue text-left text-wrap text-xl p-4 font-bitter'>
+                <p className='text-baby-blue text-left w-full
+                text-wrap  xs:text-sm sm:text-base md:text-lg  text-xl  
+                p-4 font-bitter'>
                     In addition to being apart of WEHack, I am also involved in 
                     a number of clubs on campus. I served as a Microsoft Student Ambassador in Spring 2023, 
                     was a Freshman Mentor, and helped found a club on-campus. 
@@ -87,12 +98,12 @@ const About = () => {
             </section>
         </div>
 
-        <div className='flex flex-row items-center justify-center pb-4' style={{width: '100vh', height: 'auto'}}> 
+        <div className='flex flex-row  xs:flex-col-reverse sm:flex-col-reverse items-center justify-center pb-4' style={{height: 'auto'}}> 
             <section style={{height: '100%'}}>
                 <h4 className='text-white text-wrap text-lg font-bold p-4'>
                     Event Planning + Bullet Journaling
                 </h4>
-                <p className='text-baby-blue text-left text-wrap text-xl p-4 font-bitter'>
+                <p className='text-baby-blue text-left text-wrap w-full xs:text-sm sm:text-base md:text-lg text-xl  p-4 font-bitter'>
                 As a founding officer of Bujo Buddies UTD, I provided guidance on 
                 drafting the club constitution, moderating the official Discord server 
                 with over 200 members, and leading the planning for the initial social 

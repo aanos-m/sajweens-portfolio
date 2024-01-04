@@ -35,13 +35,19 @@ const Home = () => {
                     width: 25,
                     height: 25,
                 }}/>
-                <h1 className='text-white text-5xl font-bold '>
+                <h1 className='
+                text-center
+                text-white 
+                xs:text-2xl sm:text-3xl md:text-4xl text-5xl  
+                font-bold '>
                     Hi, I'm Sajween!
                 </h1>
             </div>
         </div>
         <div className='pb-16'>
-            <p className='font-bitter text-baby-blue text-3xl font-bold text-wrap text-center pb-4 items-center justify-center'>
+            <p className='font-bitter text-baby-blue 
+            xs:text-lg sm:text-xl md:text-2xl text-3xl 
+            font-bold text-wrap text-center pb-4 items-center justify-center'>
                 I’m a UX Designer/UX <br/> Researcher with a 
                 background <br/> in Information Technology <br/> and Systems.
             </p>
@@ -58,7 +64,12 @@ const Home = () => {
                         position: 'relative',
                         top: -15
                     }}/>
-                    <h1 className='text-white text-5xl font-bold'>
+                    <h1 className='
+                            text-center
+                            text-white 
+                            xs:text-2xl sm:text-3xl md:text-4xl text-5xl  
+                            font-bold '
+                        >
                         My Projects
                     </h1>
                 </div>
@@ -72,12 +83,21 @@ const Home = () => {
                     }}/>
                 </div>
             </div>
-            <section className='flex flex-row '>
+            <section className='flex flex-row xs:flex-col sm:flex-col '>
                 <section className='p-4'>
-                    <img role='button' alt='star quest cover' src={StarQuestCover} style={imgStyles}
-                        onClick={() => navigate('/projects/StarQuest')}/>
-                    <h3 className='text-white font-bold text-2xl'>Star Quest App</h3>
-                    <span className='text-baby-blue font-bitter'>
+                    <img role='button' 
+                        alt='star quest cover' 
+                        src={StarQuestCover} 
+                        style={imgStyles}
+                        onClick={() => navigate('/projects/StarQuest')}
+                        
+                        />
+                    <h3 className='text-white font-bold 
+                     xs:text-base sm:text-lg md:text-xl text-2xl 
+                    '>Star Quest App</h3>
+                    <span className='text-baby-blue 
+                    xs:text-xs sm:text-sm md:text-base text-lg
+                    font-bitter'>
                         UX Research + UX Design<br/>
                         AIGA CreateUTD Winner
                     </span>
@@ -85,19 +105,26 @@ const Home = () => {
                 <section className='p-4'>
                     <img role='button' alt='star quest cover' src={IlluminateCover} style={imgStyles}
                         onClick={() => navigate('/projects/Illuminate')}/>
-                    <h3 className='text-white font-bold text-2xl'>illuminate App</h3>
-                    <span className='text-baby-blue font-bitter'>
+                    <h3 className='text-white font-bold 
+                    xs:text-base sm:text-lg md:text-xl text-2xl '
+                    >illuminate App</h3>
+                    <span className='
+                    text-baby-blue 
+                    xs:text-xs sm:text-sm md:text-base text-lg
+                    font-bitter'>
                         UX Research + UX Design<br/>
                         UX Design Challenge Submission
                     </span>
                 </section>
             </section>
-            <section className='flex flex-row '>
+            <section className='flex flex-row xs:flex-col sm:flex-col '>
                 <section className='p-4'>
                     <img role='button' alt='star quest cover' src={CometKnightCover} style={imgStyles} 
                         onClick={() => navigate('/projects/CometKnight')}/>
-                    <h3 className='text-white font-bold text-2xl'>Comet Knight App</h3>
-                    <span className='text-baby-blue font-bitter'>
+                    <h3 className='text-white font-bold xs:text-base sm:text-lg md:text-xl text-2xl'>
+                        Comet Knight App</h3>
+                    <span className='text-baby-blue font-bitter
+                    xs:text-xs sm:text-sm md:text-base text-lg'>
                     UX Design + UML Diagramming<br/>
                     Systems Class Project
                     </span>
@@ -105,8 +132,10 @@ const Home = () => {
                 <section className='p-4'>
                     <img role='button' alt='star quest cover' src={AimbridgeCover} style={imgStyles}
                         onClick={() => navigate('/projects/Aimbridge')}/>
-                    <h3 className='text-white font-bold text-2xl'>IT Portfolio Dashboard</h3>
-                    <span className='text-baby-blue font-bitter'>
+                    <h3 className='text-white font-bold xs:text-base sm:text-lg md:text-xl text-2xl'>
+                        IT Portfolio Dashboard</h3>
+                    <span className='text-baby-blue font-bitter
+                    xs:text-xs sm:text-sm md:text-base text-lg'>
                         UX Research + UX Design<br/>
                         Aimbridge Hospitality Internship
                     </span>
