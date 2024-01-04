@@ -13,6 +13,11 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    if (!serviceID || !templateID || !userID) {
+      alert('Please fill in all fields before sending the message.');
+      return;
+    }
+
     emailjs.sendForm(
        serviceID,
       templateID,
