@@ -3,6 +3,10 @@ import sparkles from './assets/general/sparkles.png'
 import emailjs from '@emailjs/browser';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
+const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const userID = process.env.REACT_APP_EMAILJS_USER_ID;
+
 const Contact = () => {
   const form = useRef();
 
@@ -10,10 +14,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_1awxrjc',
-      'template_4mbgv6j',
+       serviceID,
+      templateID,
       form.current,
-      'T986ERYIBIgVguJYK' 
+      userID
       )
       .then((result) => {
           console.log(result.text);
