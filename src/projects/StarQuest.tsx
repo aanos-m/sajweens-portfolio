@@ -41,7 +41,7 @@ const StarQuest = () => {
             <h1 className='font-bold text-5xl pb-4'>
                 Star Quest
             </h1>
-            <p className='pb-4 text-baby-blue font-medium font-bitter'>
+            <p className='pb-4 text-baby-blue font-medium font-bitter text-xl'>
                 American Institute of  Graphic Arts at <br/>
                 UTD’s Best Overall Project Winner 
             </p>
@@ -61,22 +61,22 @@ const StarQuest = () => {
         </div>
         <div className='flex flex-col text-white items-center text-center'>
             <h2 className='font-bold text-3xl pt-8 pb-8'>Overview</h2>
-            <p className='text-baby-blue pb-4 text-xl text-center font-bitter' style={{width: '25vw'}}>
+            <p className='text-baby-blue pb-4 text-xl text-center font-bitter w-5/12' >
                 For the American Institute of Graphic Art's 
                 CreateUTD challenge, we were tasked to create 
                 something that would help our college's food pantry raise awareness.  
             </p>
         </div>
         <div className='flex flex-col text-white items-center text-center'>
-            <h2 className='font-bold text-3xl pb-4 pt-4'>The Objective</h2>
+            <h2 className='font-bold text-3xl p-8'>The Objective</h2>
             <img alt='star quest objective' src={StarQuestObjective} 
                 style={{
-                    width: '30vw',
+                    width: '40vw',
                     height: '100%',
                     padding: 8,
                 }}
             />
-            <p className='text-left font-semibold text-lg pb-8 pl-8 pr-2 pt-4' style={{width: '30vw'}}>
+            <p className='text-left font-semibold text-lg pb-8 pl-8 pr-2 pt-4 w-5/12' >
                 We created a scavenger hunt app to bring a 
                 touch of fun to the Comet Cupboard by amping up 
                 awareness, energizing donor engagement, 
@@ -85,28 +85,28 @@ const StarQuest = () => {
             </p>
         </div>
         <div className='flex flex-col text-white items-center text-center'>
-            <h2 className='text-baby-blue font-bold text-3xl p-4 font-bitter' >Part 1: Research + Empathize </h2>
+            <h2 className='text-baby-blue font-bold text-3xl p-8 font-bitter' >Part 1: Research + Empathize </h2>
             <img alt='Star Quest Research' src={StarQuestResearch}
                 style={{
-                    width: '30vw',
+                    width: '40vw',
                     height: '100%',
                     padding: 8,
 
                 }}
             />
-            <h3 className='font-bold text-2xl pb-4 pt-4'>UX Research</h3>
+            <h3 className='font-bold text-2xl p-8'>UX Research</h3>
             <img alt='Star Quest UX Research' src={StarQuestUxResearch}
                 style={{
-                    width: '30vw',
+                    width: '45vw',
                     height: '100%',
                     padding: 8,
   
                 }}
             />
-            <h3 className='font-bold text-2xl pb-4 pt-4'>Key Takeaways</h3>
+            <h3 className='font-bold text-2xl p-8'>Key Takeaways</h3>
             <img alt='key takeaways' src={StarQuestTakeaways}
                 style={{
-                    width: '30vw',
+                    width: '45vw',
                     height: '100%',
                     padding: 8,
    
@@ -117,11 +117,11 @@ const StarQuest = () => {
             <h2 className='text-baby-blue font-bold text-3xl pb-8 pt-4 font-bitter'>Part 2: Define </h2>
             <img alt='star quest define' src={StarQuestDefine}
                 style={{
-                    width: '45vw',
+                    width: '60vw',
                     height: '100%',
                 }}
             />
-            <p className='text-white text-left pb-8 pt-8 pl-4 pr-4' style={{width: '30vw'}}>
+            <p className='text-white text-left pb-8 pt-8 pl-4 pr-4 w-5/12'>
                 After interviewing the Comet Cupboard, we identified a need for improved engagement, 
                 awareness, and donation tracking. Drawing inspiration from successful interactive 
                 experiences like Pokemon Go and impactful campaigns such as the Dove Beauty Campaign, 
@@ -137,28 +137,28 @@ const StarQuest = () => {
         </div>
         <div className='flex flex-col text-white items-center text-center'>
             <h2 className='text-baby-blue font-bold text-3xl p-4 font-bitter'>Part 3: Ideate</h2>
-            <h3 className='text-white font-bold text-2xl p-4'>Low-fidelity</h3>
+            <h3 className='text-white font-bold text-2xl pt-4 pb-8'>Low-fidelity</h3>
             <img alt='Low Fidelity' src={LowFidelity} 
                 style={{
                     width: '100%',
-                    height: '40vh',
+                    height: '70vh',
                 }}
             />
-            <h3 className='text-white font-bold text-2xl p-4'>Mid-fidelity</h3>
+            <h3 className='text-white font-bold text-2xl p-8'>Mid-fidelity</h3>
             <img alt='Mid Fidelity' src={MidFidelity} 
                 style={{
                     width: '100%',
-                    height: '40vh',
+                    height: '70vh',
                 }}
             />
-            <h3 className='text-white font-bold text-2xl p-4'>High-fidelity</h3>
+            <h3 className='text-white font-bold text-2xl p-8'>High-fidelity</h3>
             <img alt='High Fidelity' src={HighFidelity} 
                 style={{
                     width: '100%',
-                    height: '40vh',
+                    height: '70vh',
                 }}
             />
-            <div className='font-bold text-lg pt-8 pb-4 pl-4 pr-4 text-wrap' role='button' style={{width: '20vw'}}> 
+            <div className='font-bold text-2xl p-8 text-wrap' role='button'> 
                 Final Frames <br/><span >(View Figma file for the rest of the frames)</span>
             </div>
         </div>
@@ -227,18 +227,18 @@ const StarQuest = () => {
 
         </div>
         <div className='flex flex-col text-white items-center text-center p-4'>
-            <h4 className='font-bold text-xl pb-4'>Design Guide</h4>
+            <h4 className='font-bold text-2xl pb-8'>Design Guide</h4>
             <img alt='design guide' src={DesignGuide}
                 style={{
                     width: '100%',
-                    height: '50vh',
+                    height: '70vh',
                     padding: 8,
                 }}
             />
         </div>
         <div className='flex flex-col text-white items-center text-center'>
             <h2 className='text-baby-blue font-bold text-3xl p-4 font-bitter'>Part 4: Reflection </h2>
-            <p className='text-left text-lg pb-8 text-wrap' style={{width: '30vw'}}>
+            <p className='text-left text-lg pb-8 text-wrap w-5/12' >
                 Star Quest is an immersive experience that 
                 invites the UT Dallas community to embark 
                 on a galactic journey to feed the galaxy. 
@@ -249,7 +249,7 @@ const StarQuest = () => {
             </p>
             <img alt='star quest conclusion' src={StarQuestConclusion}
                 style={{
-                    width: '30vw',
+                    width: '45vw',
                     height: '100%',
                     padding: 8,
                 }}

@@ -56,7 +56,7 @@ const Contact = () => {
             </div>
       </div>
 
-      <div className='p-4 text-white text-center xs:text-xs sm:text-sm text-base ' 
+      <div className='p-4 text-white text-center xs:text-xs sm:text-sm md:text-base text-lg ' 
       // style={{ width: '15vw'}}
       >
         <p className='pb-4'>

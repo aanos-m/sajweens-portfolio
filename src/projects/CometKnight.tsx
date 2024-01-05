@@ -33,7 +33,7 @@ const CometKnight = () => {
             <h1 className='font-bold text-5xl pb-4'>
                 Comet Knight
             </h1>
-            <span className='pb-4 text-baby-blue font-medium font-bitter'>
+            <span className='pb-4 text-baby-blue font-medium font-bitterv text-xl'>
             Systems, Analysis, and Design <br/>
             Class Project
             </span>
@@ -65,7 +65,7 @@ const CometKnight = () => {
         
         <div className='flex flex-col text-white items-center text-center'>
             <h2 className='font-bold text-3xl pt-8 pb-8'>Overview</h2>
-            <p className='text-baby-blue pb-4 text-xl font-bitter' style={{width: '25vw'}} >
+            <p className='text-baby-blue pb-4 text-xl font-bitter w-5/12' >
                 For my Systems, Analysis, and Design class, we were tasked to create a new system. 
                 Our group decided to focus on creating a platform to help the UTD community with on-campus 
                 automotive services. 
@@ -75,7 +75,7 @@ const CometKnight = () => {
         <div className='flex flex-col text-white items-center text-center justify-center'>
             <h2 className='font-bold text-baby-blue text-3xl pt-8 pb-4 font-bitter'>Part 1: Define </h2>
             <h3 className='font-bold text-2xl pb-8'>Problem Statement</h3>
-            <span className='pb-4 text-xl text-left' style={{width: '30vw'}} >
+            <span className='pb-4 text-xl text-left w-5/12' >
                 Our Comet Knight application will aim to mitigate the inconveniences 
                 that hinder the functionality of vehicles:  
                 <ul className="list-disc pt-6 pb-6 pr-6 pl-8">
@@ -97,7 +97,7 @@ const CometKnight = () => {
                     </li>
                 </ul>
             </span>
-            <p className='text-baby-blue text-left' style={{width: '30vw'}}>
+            <p className='text-baby-blue text-left w-5/12' >
                 Our team has decided to develop a subscription-based application named Comet Knight that offers
                 automotive services to faculty and students at The University of Texas at Dallas (UTD). 
                 This system will improve accessibility for the UTD community to services like fixing flat tires 
@@ -110,7 +110,7 @@ const CometKnight = () => {
         </div>
         <div className='flex flex-col text-white items-center text-center justify-center'>
             <h2 className='font-bold text-baby-blue text-3xl pt-8 pb-8 font-bitter'>Part 2: Models</h2>
-            <p className='text-left pb-12 ' style={{width: '30vw'}}>
+            <p className='text-left pb-12 w-5/12' >
                 After brainstorming the main functionalities of our system, we then mapped 
                 out different user interactions/features via a context, use case, and class diagrams.
                 We looked at what would be required from a UTD user, mechanic, and system administrator. 
@@ -118,11 +118,11 @@ const CometKnight = () => {
                 and what user journey would take place to access certain features.
             </p>
             <h3 className='font-bold text-2xl pb-8'>Context Diagram</h3>
-            <img alt='context diagram' src={contextDiagram} style={{width: '100%', height: '35vh'}}/>
+            <img alt='context diagram' src={contextDiagram} style={{width: '50vw', height: '100%'}}/>
             <h3 className='font-bold text-2xl p-8'>Use Case Diagram</h3>
-            <img alt='use case diagram' src={useCaseDiagram} style={{width: '100%', height: '60vh'}}/>
+            <img alt='use case diagram' src={useCaseDiagram} style={{width: '50vw', height: '100%'}}/>
             <h3 className='font-bold text-2xl p-8'>Class Diagram</h3>
-            <img alt='class diagram' src={classDiagram} style={{width: '100%', height: '60vh'}}/>
+            <img alt='class diagram' src={classDiagram} style={{width: '50vw', height: '100%'}}/>
         </div>
         <div className='flex flex-col text-white items-center text-center justify-center'>
             <h2 className='font-bold text-baby-blue text-3xl pt-12 pb-8 font-bitter'>Part 3: Design</h2>

@@ -23,7 +23,7 @@ const Aimbridge = () => {
             <h1 className='font-bold text-5xl pb-4'>
                 IT Portfolio Dashboard
             </h1>
-            <span className='pb-4 text-baby-blue font-medium font-bitter'>
+            <span className='pb-4 text-baby-blue font-medium font-bitter text-xl'>
               Aimbridge Hospitality<br/>
               IT Project Management Internship
             </span>
@@ -43,27 +43,26 @@ const Aimbridge = () => {
         </div>
         <div className='flex flex-col text-white items-center text-center justify-center'>
             <h2 className='font-bold text-3xl pb-8 pt-4'>Overview</h2>
-            <p className='text-baby-blue pb-4 text-xl font-bitter' style={{width: '30vw'}} >
+            <p className='text-baby-blue pb-4 text-xl font-bitter w-5/12'  >
               During my time as an IT Project Management Intern at Aimbridge Hospitality, 
               I had the opportunity to follow the UX Design process while designing 
               and implementing a new standard for tracking project status in the IT department.
             </p>
             <h3 className='font-bold text-3xl p-8'>The Problem</h3>
-            <p className='text-left items-center justify-center text-lg font-light pb-4' style={{width: '25vw'}}>
+            <p className='text-left items-center justify-center text-lg font-light pb-4 w-5/12' >
               “Aimbridge Hospitality needs a standardized and 
               centralized project tracking format to ensure 
               adequate support to members of the IT Department.”
             </p>
             <h3 className='font-bold text-3xl p-8'>The Solution</h3>
-            <span className='text-left items-center justify-center text-lg font-light pb-8'
-              style={{width: '25vw'}}>
+            <span className='text-left items-center justify-center text-lg font-light pb-8'>
               Create an enterprise-wide IT Portfolio Dashboard via Smartsheet
             </span>
         </div>
         <div className='flex flex-col text-white items-center text-center justify-center'>
             <h2 className='font-bold text-baby-blue text-3xl pt-8 pb-8 font-bitter'>Part 1: Research + Empathize </h2>
             <h3 className='font-bold text-2xl pb-8 '>User Research</h3>
-            <div className='pb-2 text-lg text-left' style={{width: '25vw'}} >
+            <div className='pb-2 text-lg text-left' style={{width: '35vw'}} >
                 <span className='font-bold'>User Interviews: </span>
                 <ul className="list-disc pl-8 pt-4 pb-4">
                     <li>
@@ -85,7 +84,7 @@ const Aimbridge = () => {
             </div>
             <h3 className='font-bold text-2xl pt-4 pb-8'>Empathy Mapping</h3>
             <img alt='context diagram' src={empathyMap} style={{width: '40vw', height: '100%'}}/>
-            <span className='p-4 text-left text-lg' style={{width: '35vw'}}>
+            <span className='p-4 text-left text-lg' style={{width: '40vw'}}>
               After conducting user research, I created an empathy 
               map to categorize the user’s thoughts, actions, and feelings
             </span>
@@ -93,17 +92,17 @@ const Aimbridge = () => {
 
         <div className='flex flex-col text-white items-center text-center justify-center'>
             <h2 className='font-bold text-baby-blue text-3xl pt-8 pb-8 font-bitter'>Part 2: Define the Solution </h2>
-            <p className='text-left pb-4' style={{width: '35vw'}}>
+            <p className='text-left pb-4 w-5/12' >
               With the project background explored. it came time to expand upon the project’s scope. 
               I first looked at the current project tracking system to analyze 
               how the current system could be improved. I then leveraged these insights to create the solution.
             </p>
             <h3 className='font-bold text-2xl pt-4 pb-8'>SWOT Analysis</h3>
-            <img alt='SWOT' src={SWOT} style={{width: '100%', height: '40vh'}}/>
+            <img alt='SWOT' src={SWOT} style={{width: '45vw', height: '100%'}}/>
             <h3 className='font-bold text-2xl pt-8 pb-8'>Timeline</h3>
-            <img alt='time' src={timeline} style={{width: '100%', height: '40vh'}}/>
+            <img alt='time' src={timeline} style={{width: '45vw', height: '100%'}}/>
             <h3 className='font-bold text-2xl pt-8 pb-8'>Writing a Project Charter </h3>
-            <img alt='charter' src={charter} style={{width: '100%', height: '45vh'}}/>
+            <img alt='charter' src={charter} style={{width: '45vw', height: '100%'}}/>
         </div>
 
         <div className='flex flex-col text-white items-center text-center justify-center'>
@@ -118,7 +117,7 @@ const Aimbridge = () => {
 
         <div className='flex flex-col text-white items-center text-center justify-center'>
             <h2 className='font-bold text-baby-blue text-3xl pt-8 pb-8 font-bitter'>Part 4: Testing </h2>
-            <p className='text-left pb-8' style={{width: '25vw'}}>
+            <p className='text-left pb-8 w-5/12' >
               I was able to build out 4 other mini-dashboards for the Hotel Tech, LATAM, A3, 
               and Robotic Process Automation teams.  
               With these dashboards built, I was able to observe users via usability tests with each team.
@@ -130,7 +129,7 @@ const Aimbridge = () => {
 
         <div className='flex flex-col text-white items-center text-center justify-center'>
             <h2 className='font-bold text-baby-blue text-3xl pt-8 pb-8 font-bitter' style={{width: '20vw'}}>Part 5: Maintenance + Reflection </h2>
-            <p className='text-left pb-8' style={{width: '35vw'}}>
+            <p className='text-left pb-8 w-5/12'>
               In conclusion, I was able to practice an Agile project 
               management methodology and successfully deliver a semi-automated 
               dashboard to the CIO by the completion of my internship. As my first project 

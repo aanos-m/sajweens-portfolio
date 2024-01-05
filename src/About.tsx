@@ -40,11 +40,10 @@ const About = () => {
             </div>
         </div>
 
-        <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center pb-4' 
-            style={{height: 'auto'}}>
+        <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center pb-4 md:m-4' style={{height: 'auto'}}>
             <img src={AboutMe1} style={imgStyles} alt='img'/>
             <p className='text-baby-blue text-left 
-            w-full
+            xs:w-full sm:w-full w-5/12
             text-wrap  
             xs:text-sm sm:text-base md:text-lg text-xl 
             p-4 font-bitter'>
@@ -60,12 +59,12 @@ const About = () => {
         <h4 className='text-white font-bold text-xl text-center p-4 '>You can also find me...</h4>
 
         <div className='flex flex-row xs:flex-col-reverse sm:flex-col-reverse items-center justify-center pb-4' style={{height: 'auto'}}> 
-            <section style={{height: '100%'}}>
+            <section style={{height: '100%'}} className='xs:w-full sm:w-full w-5/12 '>
                 <h4 className='text-white text-wrap text-lg font-bold p-4'>
                     Empowering Women in Tech
                 </h4>
                 <p className='text-baby-blue text-left 
-                w-full
+                xs:w-full sm:w-full md:w-full w-full
                 text-wrap  
                 xs:text-sm sm:text-base md:text-lg text-xl 
                 p-4 font-bitter'>
@@ -82,7 +81,7 @@ const About = () => {
 
         <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center pb-4' style={{ height: 'auto'}}>
             <img src={AboutMe3} style={imgStyles} alt='img'/>
-            <section>
+            <section className='xs:w-full sm:w-full w-5/12 '>
                 <h4 className='text-white text-wrap text-lg font-bold p-4'>
                     Being Involved On-Campus
                 </h4>
@@ -99,7 +98,7 @@ const About = () => {
         </div>
 
         <div className='flex flex-row  xs:flex-col-reverse sm:flex-col-reverse items-center justify-center pb-4' style={{height: 'auto'}}> 
-            <section style={{height: '100%'}}>
+            <section style={{height: '100%'}} className='xs:w-full sm:w-full w-5/12 '>
                 <h4 className='text-white text-wrap text-lg font-bold p-4'>
                     Event Planning + Bullet Journaling
                 </h4>
