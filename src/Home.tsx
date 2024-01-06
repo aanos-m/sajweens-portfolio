@@ -88,9 +88,9 @@ const Home = () => {
                     <img role='button' 
                         alt='star quest cover' 
                         src={StarQuestCover} 
-                        style={imgStyles}
+                        // style={imgStyles}
                         onClick={() => navigate('/projects/StarQuest')}
-                        
+                        className='w-full h-96 md:h-80 sm:h-80 xs:h-72'
                         />
                     <h3 className='text-white font-bold 
                      xs:text-base sm:text-lg md:text-xl text-2xl 
@@ -103,8 +103,11 @@ const Home = () => {
                     </span>
                 </section>
                 <section className='p-4'>
-                    <img role='button' alt='star quest cover' src={IlluminateCover} style={imgStyles}
-                        onClick={() => navigate('/projects/Illuminate')}/>
+                    <img role='button' alt='star quest cover' 
+                    src={IlluminateCover} 
+                    // style={imgStyles}
+                    className='w-full h-96 md:h-80 sm:h-80 xs:h-72'
+                    onClick={() => navigate('/projects/Illuminate')}/>
                     <h3 className='text-white font-bold 
                     xs:text-base sm:text-lg md:text-xl text-2xl '
                     >illuminate App</h3>
@@ -119,8 +122,12 @@ const Home = () => {
             </section>
             <section className='flex flex-row xs:flex-col sm:flex-col '>
                 <section className='p-4'>
-                    <img role='button' alt='star quest cover' src={CometKnightCover} style={imgStyles} 
-                        onClick={() => navigate('/projects/CometKnight')}/>
+                    <img role='button' 
+                    alt='star quest cover' 
+                    src={CometKnightCover} 
+                    // style={imgStyles} 
+                    className='w-full h-96 md:h-80 sm:h-80 xs:h-72'
+                    onClick={() => navigate('/projects/CometKnight')}/>
                     <h3 className='text-white font-bold xs:text-base sm:text-lg md:text-xl text-2xl'>
                         Comet Knight App</h3>
                     <span className='text-baby-blue font-bitter
@@ -130,7 +137,9 @@ const Home = () => {
                     </span>
                 </section>
                 <section className='p-4'>
-                    <img role='button' alt='star quest cover' src={AimbridgeCover} style={imgStyles}
+                    <img role='button' alt='star quest cover' src={AimbridgeCover} 
+                    // style={imgStyles}
+                        className='w-full h-96 md:h-80 sm:h-80 xs:h-72'
                         onClick={() => navigate('/projects/Aimbridge')}/>
                     <h3 className='text-white font-bold xs:text-base sm:text-lg md:text-xl text-2xl'>
                         IT Portfolio Dashboard</h3>

@@ -46,10 +46,13 @@ const StarQuest = () => {
             </h1>
             <p className='pb-4 text-baby-blue font-medium font-bitter 
             xs:text-sm sm:text-sm md:text-lg text-xl'>
-                American Institute of  Graphic Arts at <br/>
+                American Institute of Graphic Arts at <br/>
                 UTD’s Best Overall Project Winner 
             </p>
-            <img alt='star quest cover' src={StarQuestCover} style={imgStyles}/>
+            <img alt='star quest cover' src={StarQuestCover} 
+                 className='w-full h-96 md:h-80 sm:h-80 xs:h-72 xs:p-6 sm:p-6'
+            // style={imgStyles}
+            />
             <a className='p-4 
             xs:text-sm sm:text-base md:text-base text-lg 
             underline font-bold'
@@ -73,7 +76,8 @@ const StarQuest = () => {
             pt-8 pb-8'>Overview</h2>
             <p className='text-baby-blue pb-4 
             xs:text-sm sm:text-base md:text-lg text-xl 
-            text-center font-bitter w-5/12 
+            text-center font-bitter 
+            w-5/12 xs:w-9/12 sm:w-9/12
             
             ' >
                 For the American Institute of Graphic Art's 
@@ -86,15 +90,17 @@ const StarQuest = () => {
             xs:text-lg sm:text-xl md:text-2xl text-3xl 
              p-8'>The Objective</h2>
             <img alt='star quest objective' src={StarQuestObjective} 
-                style={{
-                    width: '40vw',
-                    height: '100%',
-                    padding: 8,
-                }}
+                // style={{
+                //     width: '40vw',
+                //     height: '100%',
+                //     padding: 8,
+                // }}
+                className='h-full w-2/5 md:w-80 sm:w-80 xs:w-72'
             />
             <p className='text-left font-semibold 
             xs:text-xs sm:text-sm md:text-base text-lg
-             pb-8 pl-8 pr-2 pt-4 w-5/12' >
+             pb-8 pl-8 pr-2 pt-4 
+             w-5/12 xs:w-9/12 sm:w-9/12' >
                 We created a scavenger hunt app to bring a 
                 touch of fun to the Comet Cupboard by amping up 
                 awareness, energizing donor engagement, 
@@ -107,34 +113,35 @@ const StarQuest = () => {
             xs:text-lg sm:text-xl md:text-2xl text-3xl 
             pt-4 pb-8 font-bitter' >Part 1: Research + Empathize </h2>
             <img alt='Star Quest Research' src={StarQuestResearch}
-                style={{
-                    width: '40vw',
-                    height: '100%',
-                    padding: 8,
-
-                }}
+                // style={{
+                //     width: '40vw',
+                //     height: '100%',
+                //     padding: 8,
+                // }}
+                className='h-full w-2/5 md:w-80 sm:w-80 xs:w-72'
             />
             <h3 className='font-bold 
             xs:text-base sm:text-lg md:text-xl text-2xl 
             p-8'>UX Research</h3>
             <img alt='Star Quest UX Research' src={StarQuestUxResearch}
-                style={{
-                    width: '45vw',
-                    height: '100%',
-                    padding: 8,
-  
-                }}
+                // style={{
+                //     width: '45vw',
+                //     height: '100%',
+                //     padding: 8,
+                // }}
+                className='h-full w-2/5 md:w-80 sm:w-80 xs:w-72'
             />
             <h3 className='font-bold 
             xs:text-base sm:text-lg md:text-xl text-2xl 
             p-8'>Key Takeaways</h3>
             <img alt='key takeaways' src={StarQuestTakeaways}
-                style={{
-                    width: '45vw',
-                    height: '100%',
-                    padding: 8,
+                // style={{
+                //     width: '45vw',
+                //     height: '100%',
+                //     padding: 8,
    
-                }}
+                // }}
+                className='h-full w-2/5 md:w-80 sm:w-80 xs:w-72'
             />
         </div>
         <div className='flex flex-col text-white items-center text-center'>
@@ -142,13 +149,14 @@ const StarQuest = () => {
             xs:text-lg sm:text-xl md:text-2xl text-3xl 
             pb-8 pt-4 font-bitter'>Part 2: Define </h2>
             <img alt='star quest define' src={StarQuestDefine}
-                style={{
-                    width: '60vw',
-                    height: '100%',
-                }}
+                // style={{
+                //     width: '60vw',
+                //     height: '100%',
+                // }}
+                className='h-full w-3/5 md:w-96 sm:w-96 xs:w-80'
             />
-            <p className='text-white text-left pb-8 pt-8 pl-4 pr-4 w-5/12
-            
+            <p className='text-white text-left pb-8 pt-8 pl-4 pr-4 
+            w-5/12 xs:w-9/12 sm:w-9/12
             xs:text-xs sm:text-sm text-base'>
                 After interviewing the Comet Cupboard, we identified a need for improved engagement, 
                 awareness, and donation tracking. Drawing inspiration from successful interactive 
@@ -171,31 +179,32 @@ const StarQuest = () => {
             xs:text-base sm:text-lg md:text-xl text-2xl 
             pt-4 pb-8'>Low-fidelity</h3>
             <img alt='Low Fidelity' src={LowFidelity} 
-            className='xs:w-64 xs:h-72'
-                style={{
-                    width: '100%',
-                    height: '70vh',
-                }}
+            className='h-full w-2/5 md:w-80 sm:w-80 xs:w-72'
+                // style={{
+                //     width: '100%',
+                //     height: '70vh',
+                // }}
             />
             <h3 className='text-white font-bold
             xs:text-base sm:text-lg md:text-xl text-2xl 
             p-8'>Mid-fidelity</h3>
             <img alt='Mid Fidelity' 
-                
+                 className='h-full w-2/5 md:w-80 sm:w-80 xs:w-72'
             src={MidFidelity} 
-                style={{
-                    width: '100%',
-                    height: '70vh',
-                }}
+                // style={{
+                //     width: '100%',
+                //     height: '70vh',
+                // }}
             />
             <h3 className='text-white font-bold 
             xs:text-base sm:text-lg md:text-xl text-2xl 
             p-8'>High-fidelity</h3>
             <img alt='High Fidelity' src={HighFidelity} 
-                style={{
-                    width: '100%',
-                    height: '70vh',
-                }}
+                 className='h-full w-2/5 md:w-80 sm:w-80 xs:w-72'
+                // style={{
+                //     width: '100%',
+                //     height: '70vh',
+                // }}
             />
             <div className='font-bold 
             xs:text-base sm:text-lg md:text-xl text-2xl 
@@ -203,80 +212,115 @@ const StarQuest = () => {
                 Final Frames <br/><span >(View Figma file for the rest of the frames)</span>
             </div>
         </div>
-        <div className="flex flex-row justify-between">
+
+        <div className="flex flex-row  xs:flex-col sm:flex-col justify-between">
             <div className='flex flex-col p-4'>
-                <img alt='sss' src={SQ1} style={{
-                    width: '15vw',
-                    height: '50%',
-                    padding: 8
-                }}/>
-                <img alt='sss' src={SQ4} style={{
-                    width: '15vw',
-                    height: '50%',
-                    padding: 8
-                }}/>
-                <img alt='sss' src={SQ6} style={{
-                    width: '15vw',
-                    height: '100%',
-                    padding: 8
-                }}/>
+                <img alt='sss' src={SQ1} 
+                // style={{
+                //     width: '15vw',
+                //     height: '50%',
+                //     padding: 8
+                // }}
+                className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                />
+                <img alt='sss' src={SQ4} 
+                    className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                // style={{
+                //     width: '15vw',
+                //     height: '50%',
+                //     padding: 8
+                // }}
+                />
+                <img alt='sss' src={SQ6} 
+                className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                // style={{
+                //     width: '15vw',
+                //     height: '100%',
+                //     padding: 8
+                // }}
+                />
             </div>
             <div className='flex flex-col p-4'>
-                <img alt='sss' src={SQ2} style={{
-                    width: '15vw',
-                    height: '100%',
-                    padding: 8
-                }}/>
-                <img alt='sss' src={SQ7} style={{
-                    width: '15vw',
-                    height: '100%',
-                    padding: 8
-                }}/>
-                <img alt='sss' src={SQ10} style={{
-                    width: '15vw',
-                    height: '50%',
-                    padding: 8
-                }}/>
+                <img alt='sss' src={SQ2} 
+                    className='h-full w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                    // style={{
+                    //     width: '15vw',
+                    //     height: '100%',
+                    //     padding: 8
+                    // }}
+                />
+                <img alt='sss' src={SQ7} 
+                    className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                    // style={{
+                    //     width: '15vw',
+                    //     height: '100%',
+                    //     padding: 8
+                    // }}
+                />
+                <img alt='sss' src={SQ10} 
+                    className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                    // style={{
+                    //     width: '15vw',
+                    //     height: '50%',
+                    //     padding: 8
+                    // }}
+                />
             </div>
             <div className='flex flex-col p-4'>
-                <img alt='sss' src={SQ3} style={{
-                    width: '15vw',
-                    height: '50%',
-                    padding: 8
-                }}/> 
-                <img alt='sss' src={SQ5} style={{
-                    width: '15vw',
-                    height: '50%',
-                    padding: 8
-                }}/>
-                <img alt='sss' src={SQ8} style={{
-                    width: '15vw',
-                    height: '50%',
-                    padding: 8
-                }}/>
-                <img alt='sss' src={SQ9} style={{
-                    width: '15vw',
-                    height: '50%',
-                    padding: 8
-                }}/>
-                <img alt='sss' src={SQ11} style={{
-                    width: '15vw',
-                    height: '50%',
-                    padding: 8
-                }}/>
+                <img alt='sss' src={SQ3} 
+                    // style={{
+                    //     width: '15vw',
+                    //     height: '50%',
+                    //     padding: 8
+                    // }}
+                    className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                /> 
+                <img alt='sss' src={SQ5} 
+                    // style={{
+                    //     width: '15vw',
+                    //     height: '50%',
+                    //     padding: 8
+                    // }}
+                    className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                />
+                <img alt='sss' src={SQ8} 
+                    // style={{
+                    //     width: '15vw',
+                    //     height: '50%',
+                    //     padding: 8
+                    // }}
+                    className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'/>
+                <img alt='sss' src={SQ9} 
+                    className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                    // style={{
+                    //     width: '15vw',
+                    //     height: '50%',
+                    //     padding: 8
+                    // }}
+                />
+                <img alt='sss' src={SQ11} 
+                    // style={{
+                    //     width: '15vw',
+                    //     height: '50%',
+                    //     padding: 8
+                    // }}
+                    className='h-1/2 w-72 md:w-64 sm:w-64 xs:w-60 p-2'
+                />
             </div>
 
         </div>
+
         <div className='flex flex-col text-white items-center text-center p-4'>
             <h4 className='font-bold 
             xs:text-base sm:text-lg md:text-xl text-2xl
             pb-8'>Design Guide</h4>
             <img alt='design guide' src={DesignGuide}
-                style={{
-                    width: '100%',
-                    height: '70vh',
-                    padding: 8,
-                }}
+                // style={{
+                //     width: '100%',
+                //     height: '70vh',
+                //     padding: 8,
+                // }}
+                className='h-full w-96 md:w-80 sm:w-72 xs:w-72 p-2'
             />
         </div>
         <div className='flex flex-col text-white items-center text-center'>
@@ -285,7 +329,8 @@ const StarQuest = () => {
             p-4 font-bitter'>Part 4: Reflection </h2>
             <p className='text-left 
             xs:text-xs sm:text-sm md:text-base text-lg 
-            pb-8 text-wrap w-5/12' >
+            pb-8 text-wrap 
+            w-5/12 xs:w-9/12 sm:w-9/12' >
                 Star Quest is an immersive experience that 
                 invites the UT Dallas community to embark 
                 on a galactic journey to feed the galaxy. 
@@ -295,11 +340,12 @@ const StarQuest = () => {
                 amplify outreach efforts to ensure more impactful engagement.
             </p>
             <img alt='star quest conclusion' src={StarQuestConclusion}
-                style={{
-                    width: '45vw',
-                    height: '100%',
-                    padding: 8,
-                }}
+                // style={{
+                //     width: '45vw',
+                //     height: '100%',
+                //     padding: 8,
+                // }}
+                className='h-full w-2/5 md:w-80 sm:w-80 xs:w-72'
             />
         </div>
 
