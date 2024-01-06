@@ -12,6 +12,7 @@ module.exports = {
       'white':'#ffffff',
       'black': '#000000',
       'mustard-yellow': '#CFA831',
+      'grey': '#6b7280'
     },
     fontFamily: {
       bitter: ["Bitter", "serif"],

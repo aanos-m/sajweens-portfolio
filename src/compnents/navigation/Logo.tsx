@@ -1,10 +1,10 @@
 import React from 'react'
-import signature from './assets/general/signature.png'
+import signature from '../../assets/general/signature.png'
 
 const Logo = () => {
   return (
     <div className='flex text-white p-4 items-center justify-center' >
-        <img alt='signature' src={signature} className='w-48 h-12 '/>
+        <img alt='signature' src={signature} className='w-40 h-12 '/>
     </div>
   )
 }

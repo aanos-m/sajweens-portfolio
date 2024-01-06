@@ -1,10 +1,10 @@
-import Logo from './Logo';
-import Nav from './Nav'
+import Logo from './compnents/navigation/Logo';
+import Nav from './compnents/navigation/Nav'
 
 const NavBar = () => {
  
   return (
-    <header className='flex flex-wrap sticky top-0 w-full bg-black z-[50] items-center justify-between pt-2 font-openSans mx-auto'>
+    <header className='bg-black sticky top-0 z-[50] mx-auto flex flex-wrap w-full items-center justify-between pt-2 font-openSans '>
         <Logo/>  
         <Nav/>
     </header>
