@@ -25,13 +25,6 @@ import DesignGuide from '../assets/starQuest/Star Quest Design Guide.png'
 import { useNavigate } from 'react-router-dom'
 
 
-const imgStyles = {
-    width: '100%',
-    height: '50vh',
-    padding: 8,
-
-}
-
 const StarQuest = () => {
 
     const navigate = useNavigate();

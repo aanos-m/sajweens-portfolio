@@ -9,12 +9,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { useNavigate } from 'react-router-dom'
 import Contact from './Contact'
 
-const imgStyles = {
-    width: '100%',
-    height: '40vh',
-    padding: 4,
-}
-
 const Home = () => {
     const navigate = useNavigate();
   return (
