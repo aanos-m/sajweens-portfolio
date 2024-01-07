@@ -49,7 +49,6 @@ const Illuminate = () => {
             </p>
             <img alt='star quest cover' src={illuminate}
             className='w-full h-96 md:h-80 sm:h-80 xs:h-72 xs:p-6 sm:p-6'
-            // style={imgStyles}
             />
             <a className='p-4 underline font-bold  xs:text-sm sm:text-base md:text-base text-lg '
                 href='https://www.figma.com/proto/qJSs0DxCpdYiWdwU8Iurbx/Wireframe%2FPrototype---Iluminate?node-id=91-132&t=MIFrF1206QIDhx9N-1&mode=design'
@@ -120,11 +119,9 @@ const Illuminate = () => {
             <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center gap-8 pt-4'>
                 <img src={litReview} alt="lit review" 
                   className='h-full w-96 md:w-80 sm:w-80 xs:w-80 p-4'             
-                // style={{height: '40vh', width: '100%', padding: 8}} 
                 />
                 <img src={findingsNInsights} alt="finding + insights" 
                   className='h-full w-96 md:w-80 sm:w-80 xs:w-80 p-4'             
-                  // style={{height: '40vh', width: '100%', padding: 8}}
                  />
             </div>
         </div>
@@ -201,10 +198,11 @@ const Illuminate = () => {
 
 
             <div className='font-bold items-center pt-8 flex flex-col justify-center'>
-              <div className='xs:text-base sm:text-lg md:text-xl text-2xl  pb-4'> 
+              <div className='xs:text-base sm:text-lg md:text-xl text-2xl pb-4'> 
                 Opportunities Needed <br/> 
               </div>
-              <div className='flex justify-center items-center font-bold  text-wrap text-lg md:text-base sm:text-sm xs:text-xs'>
+              <div className='flex justify-center items-center font-bold 
+                text-wrap text-lg md:text-base sm:text-sm xs:text-xs'>
                 After categorizing feedback, we took note of potential opportunities for our solution
               </div>
               <div className=' flex items-center justify-center'>
@@ -233,7 +231,6 @@ const Illuminate = () => {
               Exploratory Research: Competitor Analysis
             </h3>
             <img alt='competitor' src={competitor} 
-                // style={{padding: 4, height: '100%', width: '60vw'}}
                 className='h-full w-4/6 md:w-96 sm:w-80 xs:w-80 p-2'
             />
           </div>
@@ -277,36 +274,19 @@ const Illuminate = () => {
               <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center'>
                 <img src={hS1} alt='hs1' 
                     className='h-full w-1/3 md:w-96 sm:w-80  xs:w-80 p-2'
-                  // style={{
-                  //   padding: 8, 
-                  //   width: '30vw',
-                  //   height: '100%'
-                  // }}
+
                   />
                   <img src={hS4} alt='hs4'
                   className='h-full w-1/3 md:w-96 sm:w-80  xs:w-80 p-2'
-                  // style={{
-                  //   padding: 8, 
-                  //   width: '30vw',
-                  //   height: '100%'
-                  // }}
+
                   />
               </div>
               <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center'>
                 <img src={hS2} alt='hs2' className='h-full w-1/3 md:w-96 sm:w-80  xs:w-80 p-2'
-                  // style={{
-                  //   padding: 8, 
-                  //   width: '30vw',
-                  //   height: '100%'
-                  // }}
+
                   />
                 <img src={hS3} alt='hs3' className='h-full w-1/3 md:w-96 sm:w-80  xs:w-80 p-2'
-                  // style={{
-                  //   padding: 8, 
-                  //   width: '30vw',
-                  //   height: '100%'
-                  // }}
-                  />
+                />
               </div>
             </div>
 
@@ -319,30 +299,18 @@ const Illuminate = () => {
                 <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center gap-4'>
                   <img src={appStat1} alt='app status 1' 
                 className='h-full w-2/5 md:w-96 sm:w-80 xs:w-80 p-2'
-                  // style={{
-                  //   padding: 8, 
-                  //   width: '60vw',
-                  //   height: '40vh'
-                  // }}
+
                   />
                   <img src={appStat2} alt='app status 1' 
                   className='h-full w-2/5 md:w-96 sm:w-80 xs:w-80 p-4 xs:p-1 sm:p-1'
 
-                  // style={{
-                  //   padding: 8, 
-                  //   width: '60vw',
-                  //   height: '40vh'
-                  // }}
+
                   />
                 </div>
                 
                 <img src={appStatus2} alt='app status 1'
                   className='h-full w-2/5 md:w-96 sm:w-80 xs:w-80 p-2'
-                // style={{
-                //   padding: 8, 
-                //   width: '30vw',
-                //   height: '100%'
-                // }}
+
                 />
               </div>
             </div>
@@ -355,29 +323,16 @@ const Illuminate = () => {
               <div className='flex flex-row xs:flex-col sm:flex-col items-center justify-center gap-4'>
                   <img src={jobCaro1} alt='app status 1' 
                 className='h-full w-2/5 md:w-96 sm:w-80 xs:w-80 p-2'
-                  // style={{
-                  //   padding: 8, 
-                  //   width: '60vw',
-                  //   height: '40vh'
-                  // }}
+
                   />
                   <img src={jobCaro2} alt='app status 1' 
                   className='h-full w-2/5 md:w-96 sm:w-80 xs:w-80 p-4 xs:p-1 sm:p-1'
 
-                  // style={{
-                  //   padding: 8, 
-                  //   width: '60vw',
-                  //   height: '40vh'
-                  // }}
                   />
                 </div>
                 <img src={jobCarousel2} alt='job carousel 2' 
                 className='h-full w-2/5 md:w-96 sm:w-80 xs:w-80 p-2'
-                // style={{
-                //   padding: 8, 
-                //   width: '30vw',
-                //   height: '100%'
-                // }}
+
                 />
               </div>
             </div>
@@ -410,7 +365,9 @@ const Illuminate = () => {
             feature that sends reminders of the employer to update the status of applications.
           </p>
         </div>
-        <button className='text-white pt-24 pb-16 text-xl font-bold' onClick={() => navigate('/')}>View My Other Projects</button>
+        <button className='text-white pt-24 pb-16 
+            xs:text-sm sm:text-sm md:text-base text-lg 
+        font-bold' onClick={() => navigate('/')}>View My Other Projects</button>
 
     </div>
           
